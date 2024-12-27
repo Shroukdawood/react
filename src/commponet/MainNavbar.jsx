@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+
 import MainNavLink from "./MainNavLink";
 
 function MainNavbar() {
@@ -20,6 +20,14 @@ name : "About" ,
 name : "Error" ,
   path :"/*"
 },
+{
+  name :" Content",
+  path:"/content"
+},
+{
+  name :" Registration",
+  path:"/registration"
+}
 ]
 
   return (
