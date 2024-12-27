@@ -27,6 +27,10 @@ name : "Error" ,
 {
   name :" Registration",
   path:"/registration"
+},
+{
+  name:"LogIn",
+  path:"/login"
 }
 ]
 

@@ -2,20 +2,48 @@ import React from 'react'
 
 export default function Registration() {
   return (
-    <div>
-        <header style={{color:"black",
-            backgroundColor:"orange",
-            textAlign:"center",
-            fontFamily:"inherit",
-            fontSize:"30px"
-        }}>Registration</header>
-      <div>  
-        <input type="text" placeholder='enter your name' ></input> <button>user name</button>
-        <input type='email' plabceholder='enter your mail' ></input> <button>email</button>
-        <input type="text" placeholder='enter your phone' ></input> <button>no.phone</button>
-        <input type="password" placeholder='enter your password' ></input> <button>password</button>
-       
-       </div>
-    </div>
+    <>
+      <InputGroup className="mb-3">
+        <Button variant="outline-secondary" id="button-addon1">
+          Button
+        </Button>
+        <Form.Control
+          aria-label="Example text with button addon"
+          aria-describedby="basic-addon1"
+        />
+      </InputGroup>
+
+      <InputGroup className="mb-3">
+        <Form.Control
+          placeholder="Recipient's username"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <Button variant="outline-secondary" id="button-addon2">
+          Button
+        </Button>
+      </InputGroup>
+
+      <InputGroup className="mb-3">
+        <Button variant="outline-secondary">Button</Button>
+        <Button variant="outline-secondary">Button</Button>
+        <Form.Control aria-label="Example text with two button addons" />
+      </InputGroup>
+
+      <InputGroup>
+        <Form.Control
+          placeholder="Recipient's username"
+          aria-label="Recipient's username with two button addons"
+        />
+        <Button variant="outline-secondary">Button</Button>
+        <Button variant="outline-secondary">Button</Button>
+      </InputGroup>
+    </>
   )
 }
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+
+
+ 
