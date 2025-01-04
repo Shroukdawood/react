@@ -41,9 +41,9 @@ element:<Content />
 ])
  
  return <>
- <MainNavbar/>
+
 {routes}
-<MainFooter/>
+
  </>
 }
 
