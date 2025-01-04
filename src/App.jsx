@@ -1,6 +1,6 @@
 // import "./assets/style.css";
-import mainClasses from "./assets/style.module.css";
-import Logo from "./assets/react.svg";
+// import mainClasses from "./assets/style.module.css";
+// import Logo from "./assets/react.svg";
 import MainNavbar from "./commponet/MainNavbar";
 import MainFooter from "./commponet/MainFooter";
 import Home from "./pages/Home";
