@@ -31,11 +31,15 @@ name : "Error" ,
 {
   name:"LogIn",
   path:"/login"
+},
+{
+  name:"Student",
+  path:"/student",
 }
 ]
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
